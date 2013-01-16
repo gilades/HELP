@@ -105,8 +105,8 @@ public class Hebrew extends Activity implements OnClickListener,
 		answers[1].setText("אדם שאישתו איננה בחיים");
 		answers[2].setText("עוזר במעבדה");
 		answers[3].setText("אל מן המיתולוגיה המצרית");
-		time = (Chronometer) findViewById(R.id.chronometer1);
-		time.start();
+		time = (Chronometer) findViewById(R.id.chronometer1); //Line1
+		time.start(); //Line2
 		// ////////////////////////////////////////////////////////////////////////////////
 		// Hashmap for ListView
 		questionsList = new ArrayList<HashMap<String, String>>();
